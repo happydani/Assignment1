@@ -171,7 +171,7 @@ if (widget instanceof Object) {
 // STEP 25 - test if variable is an object
 
 var widget = {};
-if (widget !== (instanceof Object)) {
+if (widget instanceof Object !== true) {
     window.console.log("false");
 }
 
