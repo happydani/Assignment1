@@ -166,12 +166,12 @@ var widget = {};
 if (widget instanceof Object) {
     window.console.log("true");
 }
-
 */
+
 // STEP 25 - test if variable is an object
 
 var widget = {};
-if (widget instanceof Object !== true) {
+if (widget instanceof Object !== false) {
     window.console.log("false");
 }
 
